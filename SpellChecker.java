@@ -52,6 +52,7 @@ public class SpellChecker {
 		if (tempbest <= threshold){
 			return dictionary[positionoftempbest];
 		}
+		System.out.println(tempbest);
 		return "";
 	}
 	
